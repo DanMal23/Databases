@@ -29,7 +29,7 @@ public class LGStables extends javax.swing.JFrame {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?autoReconnect=true&useSSL=false",
-					"root", "maailmdmroot");
+					"root", "root");
 
 		} catch (SQLException | ClassNotFoundException ex) {
 		}

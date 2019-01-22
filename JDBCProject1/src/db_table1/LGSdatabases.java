@@ -40,7 +40,7 @@ public class LGSdatabases {
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?autoReconnect=true&useSSL=false"
 			// +
 			// "/db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
-					, "root", "maailmdmroot");
+					, "root", "root");
 			statement = connection.createStatement();
 			ResultSet rs = statement.executeQuery("SELECT * FROM LGS"); // accessing data
 			System.out.println("-----Successful Database Connection: -----");
