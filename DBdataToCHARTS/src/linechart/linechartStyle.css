@@ -1,0 +1,49 @@
+/** caspian css styling used */
+
+.background {
+	-fx-background-color: #ccc7d1;	
+}
+.axis{
+  -fx-tick-label-font-size: 12pt;
+}
+.chart-legend {
+	-fx-background-color: white;
+	-fx-background-insets: 2pt;	
+}
+.label {
+    -fx-font: 19.0px "Verdana";
+    -fx-text-fill: #514134;
+    }
+
+.default-color0.chart-series-line { 
+	-fx-stroke:#0090ff;	
+	-fx-stroke-width: 4.0pt;
+}
+.default-color1.chart-series-line { 
+	-fx-stroke:#000000;	
+	-fx-stroke-width: 4.0pt;
+}
+.default-color2.chart-series-line { 
+	-fx-stroke:#ff9000;	
+	-fx-stroke-width: 4.0pt;
+}
+
+.default-color0.chart-line-symbol { 
+	-fx-background-color: #0090ff, white;
+	-fx-background-radius: 0.0;	
+	-fx-padding: 10.0px 8.0px 10.0px 8.0px;
+	-fx-stroke:#0090ff;
+	-fx-shape: "M 5,0 L10,9 L5,18 L0,9 Z";	
+}
+.default-color1.chart-line-symbol { /*diamond */
+    -fx-background-color: #000000, white;
+    -fx-background-radius: 4.0;
+    -fx-padding: 10.0px 8.0px 10.0px 8.0px;
+    -fx-shape: "M 5,0 L10,9 L5,18 L0,9 Z";  
+}
+.default-color2.chart-line-symbol { 
+    -fx-background-color: #ff9000, white;
+    -fx-background-radius: 4.0;
+    -fx-padding: 10.0px 8.0px 10.0px 8.0px;
+    -fx-shape: "M 5,0 L10,9 L5,18 L0,9 Z";  
+}
