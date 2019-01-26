@@ -56,7 +56,7 @@ public class Main extends Application {
 		Class.forName("com.mysql.jdbc.Driver");
 
 		connection = (Connection) DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/mydb?autoReconnect=true&useSSL=false", "root", "maailmdmroot");
+				"jdbc:mysql://localhost:3306/mydb?autoReconnect=true&useSSL=false", "root", "root");
 
 		statement = (Statement) connection.createStatement();
 	}
