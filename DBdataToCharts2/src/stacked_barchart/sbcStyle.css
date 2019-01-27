@@ -1,0 +1,35 @@
+.background {
+	-fx-background-color: #ccc7d1;	
+}
+
+.default-color0.chart-bar { 
+	-fx-bar-fill: #69756a;
+	-fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+.default-color1.chart-bar { 
+	-fx-bar-fill: #c9d8ca;
+	-fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+.default-color2.chart-bar { 
+	-fx-bar-fill: #649668;
+	-fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+.default-color3.chart-bar { 
+	-fx-bar-fill: #ccc0b9;
+	-fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}	
+.chart-legend {
+	-fx-background-color: white;
+	-fx-padding: 6px;
+}
+.axis{
+  -fx-tick-label-font-size: 14pt;
+}
+.label {
+    -fx-font: 19.0px "Verdana";
+    -fx-text-fill: #514134;
+}

@@ -1,0 +1,17 @@
+
+	
+.default-color0.chart-pie { -fx-pie-color: #997878; }
+.default-color1.chart-pie { -fx-pie-color: #c4aeae; }
+.default-color2.chart-pie { -fx-pie-color: #7c7171; }
+.default-color3.chart-pie { -fx-pie-color: #383333; }
+.default-color4.chart-pie { -fx-pie-color: #8e3e3e; }
+.default-color5.chart-pie { -fx-pie-color: #542323; }
+.default-color6.chart-pie { -fx-pie-color: #d86868; }
+.default-color8.chart-pie { -fx-pie-color: #a55e5e; }
+.default-color9.chart-pie { -fx-pie-color: #3a0707; }
+.default-color10.chart-pie { -fx-pie-color: #e5c3c3; }
+
+.chart-legend {
+	-fx-background-color: white;
+	 -fx-padding: 6px;
+}

@@ -1,0 +1,51 @@
+/** caspian css styling used */
+
+.chart {
+	-fx-background-color: white;	
+}
+.axis{
+  -fx-tick-label-font-size: 12pt;
+}
+.chart-legend {
+	-fx-background-color: white;
+	-fx-background-insets: 4pt;	
+}
+.label {
+    -fx-font: 19.0px "Verdana";
+    -fx-text-fill: #6b5636;
+    }
+
+.default-color0.chart-series-line { 
+	-fx-stroke:#e57104;	
+	-fx-stroke-width: 4.0pt;
+}
+.default-color1.chart-series-line { 
+	-fx-stroke:#000000;	
+	-fx-stroke-width: 4.0pt;
+}
+.default-color2.chart-series-line { 
+	-fx-stroke:#3e68a8;	
+	-fx-stroke-width: 4.0pt;
+}
+
+.default-color0.chart-line-symbol { /*cross shape */
+	-fx-background-color: brown;
+	-fx-padding: 8.0px 6.0px 8.0px 6.0px;
+	-fx-stroke:#0090ff;
+	-fx-shape: "M2,0 L5,4 L8,0 L10,0 L10,2 L6,5 L10,8 L10,10 L8,10 L5,6 L2,10 L0,10 L0,8 L4,5 L0,2 L0,0 Z";	
+}
+.default-color1.chart-line-symbol { 
+    -fx-background-color: gray;
+	-fx-padding: 8.0px 6.0px 8.0px 6.0px;
+    -fx-shape: "M2,0 L5,4 L8,0 L10,0 L10,2 L6,5 L10,8 L10,10 L8,10 L5,6 L2,10 L0,10 L0,8 L4,5 L0,2 L0,0 Z";  
+}
+.default-color2.chart-line-symbol { 
+    -fx-background-color: blue;
+	-fx-padding: 8.0px 6.0px 8.0px 6.0px;
+    -fx-shape: "M2,0 L5,4 L8,0 L10,0 L10,2 L6,5 L10,8 L10,10 L8,10 L5,6 L2,10 L0,10 L0,8 L4,5 L0,2 L0,0 Z";  
+}
+.button {
+	-fx-background-color: white;
+	-fx-border-style: dashed;
+	-fx-font: 14pt 'Verdana';
+}

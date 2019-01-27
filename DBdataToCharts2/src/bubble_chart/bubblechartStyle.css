@@ -1,0 +1,31 @@
+/** caspian css styling used */
+
+.background {
+	-fx-background-color: #ccc7d1;	
+}
+.axis{
+  -fx-tick-label-font-size: 12pt;
+}
+.chart-legend {
+	-fx-background-color: white;
+	-fx-background-insets: 2pt;	
+}
+.label {
+    -fx-font: 19.0px "Verdana";
+    -fx-text-fill: #424d59;
+    }
+
+.default-color0.chart-bubble { 
+	-fx-bubble-fill:#0090ff;	
+}
+.default-color1.chart-bubble { 
+	-fx-bubble-fill:#000000;	
+}
+.default-color2.chart-bubble { 
+	-fx-bubble-fill:#ff9000;	
+}
+
+/* .chart-bubble {
+    -fx-bubble-fill: #f9d900;
+    -fx-background-color: radial-gradient(center 50% 50%, radius 80%, derive(-fx-bubble-fill,20%), derive(-fx-bubble-fill,-30%));
+}*/
